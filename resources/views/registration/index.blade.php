@@ -151,7 +151,7 @@
                                         <h3 class="c-font-uppercase c-font-bold">Fragen?</h3>
                                         
                                         <div class="c-line-left"></div>
-                                        <a href="#" class="btn btn-xlg c-theme-btn c-btn-green c-btn-border-1x c-btn-uppercase c-btn-square c-font-bold">Kontakt</a>
+                                        <a href="{{url('/contact')}}" class="btn btn-xlg c-theme-btn c-btn-green c-btn-border-1x c-btn-uppercase c-btn-square c-font-bold">Kontakt</a>
                                         
                                         <p>Bei Fragen könnt ihr Euch direkt an Jens Krause wenden oder nutzt einfach das Kontaktformular!</p>
                                     </div>
@@ -313,82 +313,7 @@
                                     <p> Lorem ipsum dolor sit amet, dolor nemo amet elit. Nulla nemo consequuntur. </p>
                                 </div>
                             </div>
-                            <div class="c-content-person-1 c-option-2">
-                                <div class="c-caption c-content-overlay">
-                                    <div class="c-overlay-wrapper">
-                                        <div class="c-overlay-content">
-                                            <a href="#">
-                                                <i class="icon-link"></i>
-                                            </a>
-                                            <a href="assets/base/img/content/team/team11.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-2">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <img src="assets/base/img/content/team/team11.jpg" class="img-responsive c-overlay-object" alt=""> </div>
-                                <div class="c-body">
-                                    <div class="c-head">
-                                        <div class="c-name c-font-uppercase c-font-bold">Sara Conner</div>
-                                        <ul class="c-socials c-theme-ul">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="icon-social-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="icon-social-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="icon-social-dribbble"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="c-position"> Director, JANGO Inc. </div>
-                                    <p> Lorem ipsum dolor sit amet, dolor nemo amet elit. Nulla nemo consequuntur. </p>
-                                </div>
-                            </div>
-                            <div class="c-content-person-1 c-option-2">
-                                <div class="c-caption c-content-overlay">
-                                    <div class="c-overlay-wrapper">
-                                        <div class="c-overlay-content">
-                                            <a href="#">
-                                                <i class="icon-link"></i>
-                                            </a>
-                                            <a href="assets/base/img/content/team/team12.jpg" data-lightbox="fancybox" data-fancybox-group="gallery-2">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <img src="assets/base/img/content/team/team12.jpg" class="img-responsive c-overlay-object" alt=""> </div>
-                                <div class="c-body">
-                                    <div class="c-head">
-                                        <div class="c-name c-font-uppercase c-font-bold">Jim Book</div>
-                                        <ul class="c-socials c-theme-ul">
-                                            <li>
-                                                <a href="#">
-                                                    <i class="icon-social-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="icon-social-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i class="icon-social-dribbble"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="c-position"> Director, JANGO Inc. </div>
-                                    <p> Lorem ipsum dolor sit amet, dolor nemo amet elit. Nulla nemo consequuntur. </p>
-                                </div>
-                            </div>
+                           
                         </div>
                         <!-- End-->
                     </div>
@@ -397,120 +322,10 @@
             </div>
             <!-- END: CONTENT/SLIDERS/TEAM-2 -->
             <!-- BEGIN: CONTENT/MISC/ABOUT-1 -->
-            <div class="c-content-box c-size-md c-bg-white">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 wow animated fadeInLeft">
-                            <!-- Begin: Title 1 component -->
-                            <div class="c-content-title-1">
-                                <h3 class="c-font-uppercase c-font-bold">About us</h3>
-                                <div class="c-line-left c-theme-bg"></div>
-                            </div>
-                            <!-- End-->
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy nibh euismod tincidunt ut laoreet dolore magna aluam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci et tation diam nisl ut aliquip
-                                ex ea commodo consequat euismod tincidunt ut laoreet dolore magna aluam. </p>
-                            <ul class="c-content-list-1 c-theme  c-font-uppercase">
-                                <li>Perfect Design interface</li>
-                                <li>Huge Community</li>
-                                <li>Support for Everyone</li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed elit diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
-                        </div>
-                        <div class="col-sm-6 wow animated fadeInRight">
-                            <div class="c-content-client-logos-1">
-                                <!-- Begin: Title 1 component -->
-                                <div class="c-content-title-1">
-                                    <h3 class="c-font-uppercase c-font-bold">Our Clients</h3>
-                                    <div class="c-line-left c-theme-bg"></div>
-                                </div>
-                                <!-- End-->
-                                <div class="c-logos">
-                                    <div class="row">
-                                        <div class="col-md-4 col-xs-6 c-logo c-logo-1">
-                                            <a href="#">
-                                                <img class="c-img-pos" src="assets/base/img/content/client-logos/client1.jpg" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 col-xs-6 c-logo c-logo-2">
-                                            <a href="#">
-                                                <img class="c-img-pos" src="assets/base/img/content/client-logos/client2.jpg" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 col-xs-6 c-logo c-logo-3">
-                                            <a href="#">
-                                                <img class="c-img-pos" src="assets/base/img/content/client-logos/client3.jpg" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 col-xs-6 c-logo c-logo-4">
-                                            <a href="#">
-                                                <img class="c-img-pos" src="assets/base/img/content/client-logos/client4.jpg" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 col-xs-6 c-logo c-logo-5">
-                                            <a href="#">
-                                                <img class="c-img-pos" src="assets/base/img/content/client-logos/client5.jpg" alt="" />
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 col-xs-6 c-logo c-logo-6">
-                                            <a href="#">
-                                                <img class="c-img-pos" src="assets/base/img/content/client-logos/client6.jpg" alt="" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <!-- END: CONTENT/MISC/ABOUT-1 -->
             <!-- BEGIN: CONTENT/TESTIMONIALS/TESTIMONIALS-2 -->
-            <div class="c-content-box c-size-lg c-bg-white">
-                <div class="container">
-                    <!-- Begin: testimonials 1 component -->
-                    <div class="c-content-testimonials-1 c-option-2 wow animated fadeIn" data-slider="owl">
-                        <!-- Begin: Title 1 component -->
-                        <div class="c-content-title-1">
-                            <h3 class="c-center c-font-uppercase c-font-bold">Our Satisfied Customers</h3>
-                            <div class="c-line-center c-theme-bg"></div>
-                        </div>
-                        <!-- End-->
-                        <!-- Begin: Owlcarousel -->
-                        <div class="owl-carousel owl-theme c-theme c-owl-nav-center wow animated fadeInUp" data-single-item="true" data-slide-speed="8000" data-rtl="false">
-                            <div class="item">
-                                <div class="c-testimonial">
-                                    <p> “JANGO is an international, privately held company that specializes in the start-up, promotion and operation of multiple online marketplaces” </p>
-                                    <h3>
-                                        <span class="c-name c-theme">John Snow</span>, CEO, Mockingbird </h3>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="c-testimonial">
-                                    <p> “After co-founding the company in 2006 the group launched JANGO, the first digital marketplace which focused on rich multimedia web content” </p>
-                                    <h3>
-                                        <span class="c-name c-theme">Arya Stark</span>, CFO, Valar Dohaeris </h3>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="c-testimonial">
-                                    <p> “It was the smoothest implementation process I have ever been through with JANGO’s process and schedule.” </p>
-                                    <h3>
-                                        <span class="c-name c-theme">Arya Stark</span>, CFO, Valar Dohaeris </h3>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="c-testimonial">
-                                    <p> “A system change is always stressful and JANGO did a great job of staying positive, helpful, and patient with us.” </p>
-                                    <h3>
-                                        <span class="c-name c-theme">Arya Stark</span>, CFO, Valar Dohaeris </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End-->
-                    </div>
-                    <!-- End-->
-                </div>
-            </div>
+            
             <!-- END: CONTENT/TESTIMONIALS/TESTIMONIALS-2 -->
             <!-- END: PAGE CONTENT -->
         </div>

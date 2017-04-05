@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Answer;
+use Carbon\Carbon;
 
 class Registration extends Model
 {
@@ -16,6 +17,7 @@ class Registration extends Model
     }
 
     public function GetDateAttribute($value){
+        Carbon::setLocale('de');
         return is_null($this->created_at) ? '' : $this->created_at->diffForHumans();
     }
 

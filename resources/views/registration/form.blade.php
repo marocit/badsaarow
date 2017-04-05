@@ -9,7 +9,7 @@
 </div>
     <div class="form-group {{ $errors->has('email') ? 'has-error': '' }}">
     {!! Form::label('email') !!}
-    {!! Form::text('email', null, ['class' => 'form-control c-square c-theme input-lg']) !!}
+    {!! Form::text('email', null, ['class' => 'form-control c-square c-theme input-lg' , 'placeholder' => 'Email']) !!}
 
     @if($errors->has('email'))
         <span class="help-block">{{ $errors->first('email') }}</span>

@@ -16,13 +16,7 @@
                                     <span>Dashboard</span>
                                 </li>
                             </ul>
-                            <div class="page-toolbar">
-                                <div id="dashboard-report-range" class="pull-right tooltips btn btn-sm" data-container="body" data-placement="bottom" data-original-title="Change dashboard date range">
-                                    <i class="icon-calendar"></i>&nbsp;
-                                    <span class="thin uppercase hidden-xs"></span>&nbsp;
-                                    <i class="fa fa-angle-down"></i>
-                                </div>
-                            </div>
+                           
                         </div>
     <!-- END PAGE BAR -->
     <!-- BEGIN PAGE TITLE-->
@@ -123,7 +117,7 @@
 
                                                     <div class="mt-comment">
                                                         <div class="mt-comment-img">
-                                                            <img src="../assets/pages/media/users/avatar1.jpg" /> </div>
+                                                            <img src="../assets/pages/media/users/avatar.jpg" /> </div>
                                                         <div class="mt-comment-body">
                                                             <div class="mt-comment-info">
                                                                 <span class="mt-comment-author">{{$user->name}}</span>
@@ -146,7 +140,7 @@
                                                 @foreach($select2 as $selected2)
                                                     <div class="mt-comment">
                                                         <div class="mt-comment-img">
-                                                            <img src="../assets/pages/media/users/avatar4.jpg" /> </div>
+                                                            <img src="../assets/pages/media/users/avatar.jpg" /> </div>
                                                         <div class="mt-comment-body">
                                                             <div class="mt-comment-info">
                                                                 <span class="mt-comment-author">{{$selected2->name}}</span>
@@ -166,7 +160,7 @@
                                                 @foreach($select3 as $selected3)
                                                     <div class="mt-comment">
                                                         <div class="mt-comment-img">
-                                                            <img src="../assets/pages/media/users/avatar4.jpg" /> </div>
+                                                            <img src="../assets/pages/media/users/avatar.jpg" /> </div>
                                                         <div class="mt-comment-body">
                                                             <div class="mt-comment-info">
                                                                 <span class="mt-comment-author">{{$selected3->name}}</span>
@@ -186,7 +180,7 @@
                                                 @foreach($select4 as $selected4)
                                                     <div class="mt-comment">
                                                         <div class="mt-comment-img">
-                                                            <img src="../assets/pages/media/users/avatar4.jpg" /> </div>
+                                                            <img src="../assets/pages/media/users/avatar.jpg" /> </div>
                                                         <div class="mt-comment-body">
                                                             <div class="mt-comment-info">
                                                                 <span class="mt-comment-author">{{$selected4->name}}</span>
@@ -206,7 +200,7 @@
                                                 @foreach($select5 as $selected5)
                                                     <div class="mt-comment">
                                                         <div class="mt-comment-img">
-                                                            <img src="../assets/pages/media/users/avatar4.jpg" /> </div>
+                                                            <img src="../assets/pages/media/users/avatar.jpg" /> </div>
                                                         <div class="mt-comment-body">
                                                             <div class="mt-comment-info">
                                                                 <span class="mt-comment-author">{{$selected5->name}}</span>

@@ -31,6 +31,11 @@ class RegisterController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function contact()
+    {
+        return view('registration.contact');
+    }
     public function create()
     {
         //
