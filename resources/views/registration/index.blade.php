@@ -50,11 +50,8 @@
                                     </div>
                                     <div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/62.jpg); min-height: 380px;">
                                     </div>
-                                     <div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/badsaarow.png); min-height: 380px;">
+                                     <div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/bad-saarow.png); min-height: 380px;">
                                        
-                                    </div>
-                                    <div class="c-content-media-2 c-bg-img-center" style="background-image: url(assets/base/img/content/stock3/50.jpg); min-height: 380px;">
-                                        
                                     </div>
                                 </div>
                             </div>
