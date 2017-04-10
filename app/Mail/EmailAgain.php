@@ -8,10 +8,11 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use App\Registration;
 
-class RegisterEmail extends Mailable
+class EmailAgain extends Mailable
 {
     use Queueable, SerializesModels;
-    public $total = 30;
+    
+    
     public $register;
 
     /**
@@ -32,11 +33,9 @@ class RegisterEmail extends Mailable
      */
     public function build()
     {
+        //return $this->markdown('emails.register');
 
-        $subject = 'Krytonite Found';
-
-        return $this->view('emails.email')
-                    ->subject($subject);
-                    
+        return $this->from('badsaarow@sausekrause.de')
+                ->markdown('emails.register');
     }
 }

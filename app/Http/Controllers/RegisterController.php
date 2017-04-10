@@ -8,6 +8,7 @@ use App\Registration;
 use App\Answer;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\RegisterEmail;
+use App\Mail\EmailAgain;
 use App\Http\Requests\RegisterRequest;
 
 class RegisterController extends Controller
@@ -67,10 +68,10 @@ class RegisterController extends Controller
 
         $input = $request->all();
        // return $request->all();
-        Registration::create($input);
+        $register = Registration::create($input);
         //dd($request->old('answer-1'));
         
-        Mail::to('cmaroska@marocit.de')->send(new RegisterEmail());
+        Mail::to('cmaroska@marocit.de')->send(new EmailAgain($register));
         
         return redirect()->back()->with('success',  'Hallo ' . $input['name'] . ', ' . 'du hast dich erfolgreich registriert');
 

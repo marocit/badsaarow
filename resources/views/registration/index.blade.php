@@ -2,6 +2,9 @@
 
 @section('content')
 
+
+
+
  <!-- BEGIN: PAGE CONTAINER -->
         <div class="c-layout-page">
             <!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-3 -->
@@ -342,6 +345,20 @@
         )
 
 
+    </script>
+
+@endif
+
+@if(count($errors) > 0)
+
+    <script>
+
+        swal(
+            'Oops...',
+            'Irgendwas ist schief gelaufen!',
+            'error'
+        )
+    
     </script>
 
 @endif  
