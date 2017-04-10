@@ -26,11 +26,23 @@ class RegisterRequest extends FormRequest
         return [
             'name' => 'required',
             'email' => 'email|required|unique:registrations',
-            'answer-1' => 'required',
-            'answer-2' => 'required',
-            'answer-3' => 'required',
-            'answer-4' => 'required',
-            'answer-5' => 'required',
+            'answer1' => 'required',
+            'answer2' => 'required',
+            'answer3' => 'required',
+            'answer4' => 'required',
+            'answer5' => 'required',
         ];
     }
+
+    public function messages()
+{
+    return [
+        'name.required' => 'Name - Muss ausgefüllt sein',
+        'answer1.required'  => 'Ich Werde Zum Sommerfest Am 18. Juni Kommen - Muss ausgefüllt sein ',
+        'answer2.required'  => 'Ich Beteilige Mich Bei Der Vorbereitung - Muss ausgefüllt sein',
+        'answer3.required'  => 'Ich Helfe Beim Fest - Muss ausgefüllt sein',
+        'answer4.required'  => 'Ich Nehme Am Golfturnier Am 19. Juni Teil - Muss ausgefüllt sein',
+        'answer5.required'  => 'Ich Spende Einen Tollen Preis Für Den Wettbewerb - Muss ausgefüllt sein',
+    ];
+}
 }

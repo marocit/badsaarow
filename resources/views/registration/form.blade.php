@@ -15,44 +15,44 @@
         <span class="help-block">{{ $errors->first('email') }}</span>
     @endif
 </div>
- <div class="form-group {{ $errors->has('answer-1') ? 'has-error': '' }}">
+ <div class="form-group {{ $errors->has('answer1') ? 'has-error': '' }}">
     {!! Form::label('Ich werde zum Sommerfest am 18. Juni kommen:') !!}                       
-    {!! Form::select('answer-1', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
+    {!! Form::select('answer1', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
 
-    @if($errors->has('answer-1'))
-        <span class="help-block">{{ $errors->first('answer-1') }}</span>
+    @if($errors->has('answer1'))
+        <span class="help-block">{{ $errors->first('answer1') }}</span>
     @endif
 </div>
-<div class="form-group {{ $errors->has('answer-2') ? 'has-error': '' }}">
+<div class="form-group {{ $errors->has('answer2') ? 'has-error': '' }}">
     {!! Form::label('Ich beteilige mich bei der Vorbereitung:') !!}                       
-    {!! Form::select('answer-2', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
+    {!! Form::select('answer2', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
 
-    @if($errors->has('answer-2'))
-        <span class="help-block">{{ $errors->first('answer-2') }}</span>
+    @if($errors->has('answer2'))
+        <span class="help-block">{{ $errors->first('answer2') }}</span>
     @endif
 </div>
-<div class="form-group {{ $errors->has('answer-3') ? 'has-error': '' }}">
+<div class="form-group {{ $errors->has('answer3') ? 'has-error': '' }}">
     {!! Form::label('Ich helfe beim Fest:') !!}                       
-    {!! Form::select('answer-3', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
+    {!! Form::select('answer3', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
 
-    @if($errors->has('answer-3'))
-        <span class="help-block">{{ $errors->first('answer-3') }}</span>
+    @if($errors->has('answer3'))
+        <span class="help-block">{{ $errors->first('answer3') }}</span>
     @endif
 </div>
-<div class="form-group {{ $errors->has('answer-4') ? 'has-error': '' }}">
+<div class="form-group {{ $errors->has('answer4') ? 'has-error': '' }}">
     {!! Form::label('Ich nehme am Golfturnier am 19. Juni teil:') !!}                       
-    {!! Form::select('answer-4', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
+    {!! Form::select('answer4', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
 
-    @if($errors->has('answer-4'))
-        <span class="help-block">{{ $errors->first('answer-4') }}</span>
+    @if($errors->has('answer4'))
+        <span class="help-block">{{ $errors->first('answer4') }}</span>
     @endif
 </div>
-<div class="form-group {{ $errors->has('answer-5') ? 'has-error': '' }}">
+<div class="form-group {{ $errors->has('answer5') ? 'has-error': '' }}">
     {!! Form::label('Ich spende einen tollen Preis für den Wettbewerb:') !!}                       
-    {!! Form::select('answer-5', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
+    {!! Form::select('answer5', ['' => 'Choose Options'] + App\Answer::pluck('answer', 'answer')->all(), null, ['class' => 'form-control c-square c-theme input-lg']) !!}
 
-    @if($errors->has('answer-5'))
-        <span class="help-block">{{ $errors->first('answer-5') }}</span>
+    @if($errors->has('answer5'))
+        <span class="help-block">{{ $errors->first('answer5') }}</span>
     @endif
 </div>
     <div class="form-group message {{ $errors->has('message') ? 'has-error': '' }}">

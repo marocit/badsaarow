@@ -18,11 +18,11 @@ Browse to page
 @component('mail::table')
 | Laravel                                                  | Table         | Example  |
 | -------------                                            |:-------------:| --------:|
-| Ich Werde Zum Sommerfest Am 18. Juni Kommen:             | Centered      | {{$register->answer-1}}      |
-| Ich Beteilige Mich Bei Der Vorbereitung:                 | Right-Aligned | {{$register->answer-2}}      |
-| Ich Helfe Beim Fest:                                     | Right-Aligned | {{$register->answer-3}}      |
-| Ich Nehme Am Golfturnier Am 19. Juni Teil                | Right-Aligned | {{$register->answer-4}}      |
-| Ich Spende Einen Tollen Preis Für Den Wettbewerb:        | Right-Aligned | {{$register->answer-5}}      |
+| Ich Werde Zum Sommerfest Am 18. Juni Kommen:             | Centered      | {{$register->answer1}}      |
+| Ich Beteilige Mich Bei Der Vorbereitung:                 | Right-Aligned | {{$register->answer2}}      |
+| Ich Helfe Beim Fest:                                     | Right-Aligned | {{$register->answer3}}      |
+| Ich Nehme Am Golfturnier Am 19. Juni Teil                | Right-Aligned | {{$register->answer4}}      |
+| Ich Spende Einen Tollen Preis Für Den Wettbewerb:        | Right-Aligned | {{$register->answer5}}      |
 @endcomponent
 
 @component('mail::panel', ['url' => ''])

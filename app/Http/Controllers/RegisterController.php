@@ -70,7 +70,7 @@ class RegisterController extends Controller
        // return $request->all();
         $register = Registration::create($input);
         //dd($request->old('answer-1'));
-        
+        //dd($input);
         Mail::to('cmaroska@marocit.de')->send(new EmailAgain($register));
         
         return redirect()->back()->with('success',  'Hallo ' . $input['name'] . ', ' . 'du hast dich erfolgreich registriert');

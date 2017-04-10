@@ -17,11 +17,11 @@ class CreateRegistrationsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email');
-            $table->string('answer-1');
-            $table->string('answer-2');
-            $table->string('answer-3');
-            $table->string('answer-4');
-            $table->string('answer-5');
+            $table->string('answer1');
+            $table->string('answer2');
+            $table->string('answer3');
+            $table->string('answer4');
+            $table->string('answer5');
             $table->text('message')->nullable();
             $table->timestamps();
         });
